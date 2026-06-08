@@ -52,8 +52,7 @@ jobs:
           echo ""
           echo "=== First Bytes ==="
           xxd project.zip | head -2
-
-       Eagle-eyed extraction...
+          
       - name: Extract ZIP
         run: |
           echo "=== Validating ZIP ==="
